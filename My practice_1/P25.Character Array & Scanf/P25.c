@@ -1,0 +1,120 @@
+#include <stdio.h>
+int main(){
+	/*
+	  1) name
+	  2) address
+	  3) birth 
+	  4) gender
+	  5) contact num.
+	  6) email address
+	  7) NIC
+	  8) index number
+	  9) A/L results
+	*/
+	
+	char A[20];//name
+	char B[40];//address
+	int C;     //birth
+	char D[5]; //gender
+	int E;     //con.num
+	char F[10];//email
+	int G;     //NIC
+	int H;     //index
+	
+	char I; // Combind Mathamatics Mark
+	char J; // Physics Mark
+	char K; // Chemistry Mark
+	int  L; // Genaral Test Mark
+	char M; // Genaral English Mark
+	
+	printf("Enter your name\t\t:= ");
+	scanf("%s" , &A);
+	
+	printf("Enter your home  address\t:= ");
+	scanf("%s" , &B);
+	getch();
+	printf("Enter your date of birth  := ");
+	scanf("%d" , &C);
+	
+	printf("Enter your gender         := ");
+	scanf("%s" , &D);
+	
+	printf("Enter your contact number := ");
+	scanf("%d" , &E);
+	
+	printf("Enter your email address  := ");
+	scanf("%s" , &F);
+	
+	printf("Enter your NIC number     := ");
+	scanf("%d" , &G);
+	
+	printf("Enter your index number   := ");
+	scanf("%d" , &H);
+	
+	printf("\n");
+	
+	printf("Enter your A/L results");
+	printf("\n.....................\n");
+	
+		
+	printf("Enter your com.maths marks      := ");  
+	scanf(" %c" , &I);
+	
+	printf("Enter your physics marks        := ");
+	scanf(" %c" , &J);
+	
+	printf("Enter your chemistry            := ");
+	scanf(" %c" , &K);
+	
+	printf("Enter your genaral test mark    := ");
+	scanf(" %d" , &L);
+	
+	printf("Enter your genaral english mark := ");
+	scanf(" %c" , &M);
+	
+	system("cls");
+	
+	printf("\n_____________________________________\n");
+	
+	printf("\n............MY INFORMATIONS............\n");
+	
+	printf("My Name is             := %s" , A);
+	printf("\nMy Home Address is     := %s" , B);
+	printf("\nMy Date of Birth is    := %d" , C);
+	printf("\nMy Gender is           := %s" , D);
+	printf("\nMy Contact Number is   := %d" , E);
+	printf("\nEmail Address is       := %s" , F);
+	printf("\nMy NIC Number is       := %d" , G);
+	
+	printf("\n_____________________________________\n");
+	
+	printf("\nMy Index Number is %d\n\n" , H);
+	
+	printf("Com.Maths       := %c\n" , I);
+	printf("Physics         := %c\n" , J);
+	printf("Chemistry       := %c\n" , K);
+	printf("Genaral Test    := %d\n" , L);
+	printf("Genaral English := %c\n" , M);
+	
+	printf("\n_____________________________________\n");
+	
+	
+	return 0;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
